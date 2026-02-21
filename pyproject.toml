@@ -24,7 +24,7 @@ classifiers = [
 ]
 dependencies = [
     "numpy == 1.26",
-    "scipy == 1.10.0",
+    "scipy == 1.10",
     "matplotlib == 3.7",
     "pyqt6 == 6.4.0",
     "pandas==2",
@@ -50,4 +50,5 @@ include = ["*"]
 [project.scripts]
 aft = "adaptfx.aft:main"
 ast = "adaptsim.ast:main"
+
 
